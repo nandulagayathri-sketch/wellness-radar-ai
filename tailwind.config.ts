@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        mood: {
+          excellent: "hsl(var(--mood-excellent))",
+          good: "hsl(var(--mood-good))",
+          neutral: "hsl(var(--mood-neutral))",
+          low: "hsl(var(--mood-low))",
+          poor: "hsl(var(--mood-poor))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +70,18 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-wellness": "var(--gradient-wellness)",
+        "gradient-calm": "var(--gradient-calm)",
+        "gradient-mood": "var(--gradient-mood)",
+      },
+      boxShadow: {
+        "wellness": "var(--shadow-wellness)",
+        "card": "var(--shadow-card)",
+      },
+      transitionTimingFunction: {
+        "wellness": "var(--transition-wellness)",
       },
       keyframes: {
         "accordion-down": {
